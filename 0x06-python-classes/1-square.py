@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""a module for square"""
+"""Module interpreter"""
 
 
 class Square:
-    """Represents a Square"""
+    """defines a Square"""
      def __init__(self, size):
         """constructor object.
         Args:
