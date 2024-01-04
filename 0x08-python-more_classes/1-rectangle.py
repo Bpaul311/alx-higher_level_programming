@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""Rectangle class with basic attributes defined"""
+""" a module that defines a rectangle """
 
 
 class Rectangle:
-    """A class that defines a rectangle"""
+    """ a class that defines a rectangle """
+
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
@@ -31,4 +32,3 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-
