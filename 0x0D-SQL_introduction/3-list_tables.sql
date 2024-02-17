@@ -1,2 +1,2 @@
---Scipt that lists all tables in my sql
-show tables;
+-- Lists all tables of a database on my MySQL server.
+SHOW TABLES;
